@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    menu cap 1-->
+    <item android:title="Đăng xuất"
+        android:id="@+id/menuItemDangxuat"/>
+    <item android:title="Thông tin">
+        <menu>
+            <item android:id="@+id/menuItemThongTin"
+                android:title="Về chúng tôi"/>
+            <item android:id="@+id/menuItemChínhach"
+                android:title="Chính sách"/>
+        </menu>
+    </item>
+</menu>
